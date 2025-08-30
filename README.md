@@ -1,7 +1,6 @@
-**Official PyTorch code for the TBC2024 paper "MAFBLiF: Multi-scale Attention Feature Fusion Based Blind Light Field Image Quality Assessment". Please refer to the [paper](https://ieeexplore.ieee.org/document/10623345) for details.**
 
-![image](https://github.com/oldblackfish/MAFBLiF/blob/main/fig/framework.png)
 
+**Multi-task Guided Blind Light Field Image Quality Assessment via Spatial-Frequency Collaborative Modeling**
 **Note: First, we convert the dataset into H5 files using MATLAB. Then, we train and test the model in Python.**
 
 ### Generate Dataset in MATLAB
@@ -33,17 +32,4 @@ This project is based on [DeeBLiF](https://github.com/ZhengyuZhang96/DeeBLiF). T
 ### Citation
 Please cite the following paper if you use this repository in your reseach.
 ```
-@ARTICLE{10623345,
-  author={Zhou, Rui and Jiang, Gangyi and Cui, Yueli and Chen, Yeyao and Xu, Haiyong and Luo, Ting and Yu, Mei},
-  journal={IEEE Transactions on Broadcasting}, 
-  title={MAFBLiF: Multi-Scale Attention Feature Fusion-Based Blind Light Field Image Quality Assessment}, 
-  year={2024},
-  volume={70},
-  number={4},
-  pages={1266-1278},
-  keywords={Measurement;Feature extraction;Image quality;Visualization;Tensors;Electronic mail;Distortion measurement;Light field;blind image quality assessment;multi-scale attention;spatial-angular features;pooling},
-  doi={10.1109/TBC.2024.3434699}}
 
-```
-### Contact
-For any questions, feel free to contact: 2211100079@nbu.edu.cn or blackfish5254@gmail.com
